@@ -1,0 +1,13 @@
+{
+  "name": "stay-productive",
+  "version": "0.0.1",
+  "description": "The Google Chrome extension that helps you be focused on work",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "Ilya P. <togowiththeflow@gmail.com> @flowwishthebest",
+  "license": "ISC"
+}
