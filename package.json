@@ -4,10 +4,14 @@
   "description": "The Google Chrome extension that helps you be focused on work",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha ./tests/**/*.js",
     "start": "node ."
   },
   "keywords": [],
   "author": "Ilya P. <togowiththeflow@gmail.com> @flowwishthebest",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.1"
+  }
 }
