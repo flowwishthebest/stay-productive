@@ -7,7 +7,8 @@
     "test": "mocha ./tests/**/*.js",
     "start": "node .",
     "lint": "eslint lib/",
-    "lint:fix": "eslint --fix lib/"
+    "lint:fix": "eslint --fix lib/",
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "Ilya P. <togowiththeflow@gmail.com> @flowwishthebest",
@@ -15,6 +16,7 @@
   "devDependencies": {
     "chai": "^4.3.4",
     "eslint": "^7.32.0",
+    "husky": "^7.0.2",
     "mocha": "^9.1.1"
   }
 }
