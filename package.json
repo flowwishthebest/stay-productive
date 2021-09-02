@@ -1,8 +1,8 @@
 {
+  "private": true,
   "name": "stay-productive",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "The Google Chrome extension that helps you be focused on work",
-  "main": "index.js",
   "scripts": {
     "test": "mocha ./tests/**/*.js",
     "start": "node .",
@@ -10,7 +10,7 @@
     "lint:fix": "eslint --fix lib/",
     "prepare": "husky install"
   },
-  "keywords": [],
+  "keywords": ["chrome", "extension"],
   "author": "Ilya P. <togowiththeflow@gmail.com> @flowwishthebest",
   "license": "MIT",
   "devDependencies": {
