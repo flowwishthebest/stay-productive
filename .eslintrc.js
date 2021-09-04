@@ -6,6 +6,9 @@ module.exports = {
         node: true,
         webextensions: true,
     },
+		globals: {
+			localStorage: true,
+		},
     extends: 'eslint:recommended',
     parserOptions: {
         ecmaVersion: 12,
