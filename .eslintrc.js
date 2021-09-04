@@ -14,4 +14,7 @@ module.exports = {
         ecmaVersion: 12,
         sourceType: 'module'
     },
+		rules: {
+			indent: [2, 2],
+		},
 };
