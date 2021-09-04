@@ -10,7 +10,10 @@
     "lint:fix": "eslint --fix lib/",
     "prepare": "husky install"
   },
-  "keywords": ["chrome", "extension"],
+  "keywords": [
+    "chrome",
+    "extension"
+  ],
   "author": "Ilya P. <togowiththeflow@gmail.com> @flowwishthebest",
   "license": "MIT",
   "devDependencies": {
@@ -19,7 +22,9 @@
     "chai": "^4.3.4",
     "eslint": "^7.32.0",
     "husky": "^7.0.2",
-    "mocha": "^9.1.1"
+    "mocha": "^9.1.1",
+    "webpack": "^5.51.2",
+    "webpack-cli": "^4.8.0"
   },
   "dependencies": {
     "is-url": "^1.2.4",

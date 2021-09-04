@@ -4,7 +4,7 @@ module.exports = {
         commonjs: true,
         es2021: true,
         node: true,
-	    webextensions: true,
+        webextensions: true,
     },
     extends: 'eslint:recommended',
     parserOptions: {
