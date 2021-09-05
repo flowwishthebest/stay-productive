@@ -5,6 +5,7 @@ module.exports = {
         es2021: true,
         node: true,
 	    webextensions: true,
+        browser: true,
     },
     extends: 'eslint:recommended',
     parserOptions: {
